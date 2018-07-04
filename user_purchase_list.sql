@@ -8,7 +8,7 @@ WITH
      common_memberprovision.open_id_mapping
     WHERE
      dt BETWEEN '{{集計開始日}}' AND '{{集計終了日}}'
-     AND open_id IN ('YVYcs09z2q905aEB','poLecZ6RNGry0vpY')    
+     AND open_id IN ('123456789','123456789')   -- open_idを入力する
 )
 -- 購入データ //
  , data_purchase AS
